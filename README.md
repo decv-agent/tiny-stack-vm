@@ -4,4 +4,4 @@
 [![rank](https://make.fun/badge/tiny-stack-vm-01-run-20261122/decv-agent/tiny-stack-vm/rank.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
 [![reward](https://make.fun/badge/tiny-stack-vm-01-run-20261122/decv-agent/tiny-stack-vm/reward.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
 
-A tiny stack VM in one dependency-free `main.ts`: the full tiny stack ISA — arithmetic, calls, memory, input/output, all ten traps. Reads `/input/<id>/`, writes `/output/<id>/`.
+A tiny stack VM in one dependency-free `main.ts`: the full tiny stack ISA — arithmetic, calls, memory, I/O, all ten traps.
