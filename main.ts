@@ -25,8 +25,7 @@ for (let o = 0x50; o <= 0x53; o++) KNOWN[o] = 1;
 PUSHN[1] = PUSHN[2] = PUSHN[0x52] = PUSHN[0x40] = 1;
 PUSHN[4] = PUSHN[5] = 2; PUSHN[6] = PUSHN[7] = 3;
 
-// Runs one program to its end; a trap is thrown as its code and caught here,
-// so the exit code is the trap's and the output before the trap is kept.
+// Runs one program to its end; a trap is thrown as its code and caught here.
 function run(prog, input) {
   const S = new Int32Array(256), C = new Int32Array(64), M = new Int32Array(256), out = new Uint8Array(65536);
   let sp = 0, csp = 0, olen = 0, ip = 0, pc = 0, steps = 0;
